@@ -1,0 +1,82 @@
+a{
+  text-decoration: none;
+
+}
+
+header{
+  max-width: 100%;
+  height: 120px;
+}
+
+header .main-menu{
+  width: 1245px;
+  height: 86px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 8px;
+}
+
+header .main-menu .image-container{
+  width: 500px;
+  height: 100px;
+}
+header .main-menu img{
+  width: 250px;
+  height: 100px;
+}
+
+header .main-menu nav{
+  display: inline-block;
+}
+
+header .main-menu nav ul a li{
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+  color: #999;
+  font-size: 18px;
+}
+
+header .main-menu .social-icons{
+  width: 100px;
+  height: 18px;
+  text-align: right;
+}
+
+header .main-menu .social-icons i{
+  font-size: 18px;
+  color: #999;
+}
+
+footer{
+  max-width: 100%;
+  height: 65px;
+  background-color: #1c1c1c;
+}
+
+footer .all-right-reserved{
+  width: 1300px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 22px;
+}
+
+footer .all-right-reserved span{
+  color:#777;
+  float: left;
+  text-align: center;
+}
+
+footer .social-icons{
+  width: 1000px;
+  float: left;
+  text-align: right;
+}
+
+footer .social-icons i{
+  color: #777;
+  font-size: 20px;
+}

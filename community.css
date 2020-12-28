@@ -1,0 +1,479 @@
+a {
+  text-decoration: none;
+}
+
+header {
+  max-width: 100%;
+  height: 120px;
+}
+
+header .main-menu {
+  width: 100%;
+  height: 86px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 8px;
+}
+
+header .main-menu .image-container {
+  width: 500px;
+  height: 100px;
+}
+
+header .main-menu img {
+  width: 250px;
+  height: 100px;
+}
+
+header .main-menu nav {
+  display: inline-block;
+}
+
+header .main-menu nav ul a li {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+  color: #999;
+  font-size: 18px;
+}
+
+header .main-menu .social-icons {
+  width: 100px;
+  height: 18px;
+  text-align: right;
+}
+
+header .main-menu .social-icons i {
+  font-size: 18px;
+  color: #999;
+}
+header .main-menu .fa-bars {
+    display: none;
+}
+header nav ul #mobile-menu-button .fa-phone{
+  display: none;
+}
+
+header nav ul #mobile-menu-button .fa-linkedin{
+  display: none;
+}
+
+#about-content {
+  max-width: 100%;
+}
+
+#about-content .main-image {
+  width: 100%;
+  height: 356.73px;
+  position: relative;
+  text-align: center;
+}
+
+#about-content .main-image img {
+  width: 100%;
+  height: 356.73px;
+}
+
+#about-content .main-image h2 {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  text-align: center;
+  color: #624d1c;
+  font-family: 'Lato', sans-serif;
+  font-size: 94px;
+}
+
+#about-content .main-content {
+  width: 100%;
+  height: 430px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#about-content .main-content p {
+  width: 1194px;
+  margin: 0 auto;
+  text-align: justify;
+  font-family: Helvetica, sans-serif;
+  line-height: 2rem;
+  padding-top: 50px;
+  font-size: 17px;
+  color: #999;
+}
+
+#about-content .meetings-options-container {
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+#about-content .blocks {
+  width: 1258px;
+  height: 272px;
+  margin: 0 auto;
+}
+
+#about-content .meetings-options-container .my-products-block {
+  width: 609px;
+  height: 272px;
+  background-color: white;
+  float: left;
+  text-align: center;
+  margin-right: 30px;
+  border-radius: 15px;
+  -webkit-box-shadow: -1px -2px 20px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px -2px 20px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px -2px 20px -8px rgba(0, 0, 0, 0.75);
+}
+
+#about-content .meetings-options-container .my-products-block h2 {
+  padding-top: 15%;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+#about-content .meetings-options-container .my-products-block a {
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  color: black;
+  position: relative;
+  top: 60px;
+  border: 2px solid black;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  padding: 15px 25px;
+}
+
+#about-content .meetings-options-container .my-products-block a:hover {
+  background-color: black;
+  color: white;
+  transition: all .45s cubic-bezier(0.25, 1, 0.33, 1);
+}
+
+#about-content .meetings-options-container .my-services-block {
+  width: 609px;
+  height: 272px;
+  background-color: white;
+  float: left;
+  text-align: center;
+  border-radius: 15px;
+  -webkit-box-shadow: -1px -2px 20px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px -2px 20px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px -2px 20px -8px rgba(0, 0, 0, 0.75);
+}
+
+#about-content .meetings-options-container .my-services-block h2 {
+  padding-top: 15%;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+#about-content .meetings-options-container .my-services-block a {
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  color: black;
+  position: relative;
+  top: 60px;
+  border: 2px solid black;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  padding: 15px 25px;
+}
+
+#about-content .meetings-options-container .my-services-block a:hover {
+  background-color: black;
+  color: white;
+  transition: all .45s cubic-bezier(0.25, 1, 0.33, 1);
+}
+
+#about-content .meetings-options-container .block-row-2 {
+  width: 609px;
+  height: 272px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+#about-content .meetings-options-container .block-row-2 .conversation-block {
+  width: 609px;
+  height: 272px;
+  background-color: #ffff00;
+  text-align: center;
+  border-radius: 15px;
+  -webkit-box-shadow: -1px -2px 20px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px -2px 20px -8px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px -2px 20px -8px rgba(0, 0, 0, 0.75);
+}
+
+#about-content .meetings-options-container .conversation-block h2 {
+  padding-top: 15%;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+#about-content .meetings-options-container .conversation-block a {
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  color: black;
+  position: relative;
+  top: 60px;
+  border: 2px solid black;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  padding: 15px 25px;
+}
+
+#about-content .meetings-options-container .conversation-block a:hover {
+  background-color: black;
+  color: white;
+  transition: all .45s cubic-bezier(0.25, 1, 0.33, 1);
+}
+
+footer {
+  max-width: 100%;
+  height: 65px;
+  background-color: #1c1c1c;
+}
+
+footer .all-right-reserved {
+  width: 1300px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 22px;
+}
+
+footer .all-right-reserved span {
+  color: #777;
+  float: left;
+  text-align: center;
+}
+
+footer .social-icons {
+  width: 1000px;
+  float: left;
+  text-align: right;
+}
+
+footer .social-icons i {
+  color: #777;
+  font-size: 20px;
+}
+
+/*///////////////responsive/////////////////////*/
+@media screen and (max-width: 550px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  header {
+    max-width: 40%;
+  }
+
+  header .main-menu {
+    width: 380px;
+    height: 86px;
+  }
+
+  header .main-menu .image-container {
+    width: 380px;
+    height: 100px;
+  }
+
+  header .main-menu .image-container img {
+    width: 200px;
+    height: 100px;
+  }
+
+  header .main-menu nav {
+    margin-top: 100px;
+    height: 200px;
+  }
+
+  header .main-menu .social-icons {
+    display: none;
+  }
+
+  header .main-menu .social-icons .fa-linkedin {
+    display: none;
+  }
+
+  header .main-menu .fa-bars {
+    font-size: 25px;
+    vertical-align: middle;
+    position: relative;
+    top: 10px;
+    display: block;
+    color: black;
+    padding-right: 15px;
+  }
+
+  header .main-menu nav {
+    display: block;
+  }
+
+  header .main-menu nav ul a li {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    display: block;
+    color: black;
+    padding-top: 30px;
+  }
+
+  #mobile-menu-button {
+    width: 150px;
+    height: 600px;
+    background-color: rgb(114, 114, 114, 0.9);
+    z-index: 2;
+    display: none;
+    position: absolute;
+  }
+
+  #mobile-menu-button .fa-phone {
+    display: inline-block;
+    font-size: 25px;
+    color: black;
+  }
+
+
+  #about-content .main-image {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background-color: black;
+  }
+
+  #about-content .main-image img {
+    width: 100%;
+    opacity: 0.3;
+  }
+
+  #about-content .main-image h2 {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    text-align: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+  }
+
+  #about-content .main-content {
+    width: 100%;
+    height: 430px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  #about-content .meetings-options-container {
+    width: 100%;
+    height: 670px;
+    background-color: rgb(114, 114, 114, 0.05));
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+
+  #about-content .blocks {
+    width: 350px;
+    height: 272px;
+    margin: 0 auto;
+  }
+
+
+  #about-content .meetings-options-container .my-products-block {
+    width: 350px;
+    height: 200px;
+    background-color: white;
+    float: left;
+    text-align: center;
+    border-radius: 15px;
+    -webkit-box-shadow: -1px -2px 20px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px -2px 20px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px -2px 20px -8px rgba(0, 0, 0, 0.75);
+  }
+
+  #about-content .meetings-options-container .my-services-block {
+    width: 350px;
+    height: 200px;
+    margin-top: 20px;
+    background-color: white;
+    float: left;
+    text-align: center;
+    margin-right: 30px;
+    border-radius: 15px;
+    -webkit-box-shadow: -1px -2px 20px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px -2px 20px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px -2px 20px -8px rgba(0, 0, 0, 0.75);
+  }
+
+  #about-content .meetings-options-container .block-row-2 {
+    width: 350px;
+    height: 272px;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+
+  #about-content .meetings-options-container .block-row-2 .conversation-block{
+    width: 350px;
+    height: 200px;
+    background-color: white;
+    float: left;
+    text-align: center;
+    margin-right: 30px;
+    border-radius: 15px;
+      margin-top: 20px;
+    -webkit-box-shadow: -1px -2px 20px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px -2px 20px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px -2px 20px -8px rgba(0, 0, 0, 0.75);
+  }
+
+
+
+  header .main-menu #mobile-menu-button .fa-linkedin {
+    font-size: 28px;
+    color: black;
+    padding: 100px 10px;
+    display: inline-block;
+  }
+
+  footer {
+    max-width: 100%;
+    height: 65px;
+    background-color: #1c1c1c;
+  }
+
+  footer .all-right-reserved {
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+
+  footer .all-right-reserved span {
+    color: #777;
+    float: left;
+    text-align: center;
+    line-height: 1.3rem;
+  }
+
+  footer .social-icons {
+    display: none;
+  }
+
+  footer .social-icons i {
+    color: #777;
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+}
